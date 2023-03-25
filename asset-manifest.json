@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Webiste-Mh.git/static/css/main.073c9b0a.css",
+    "main.js": "/Webiste-Mh.git/static/js/main.8409238d.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Webiste-Mh.git/static/js/787.28cb0dcd.chunk.js",
+    "static/media/logo.svg": "/Webiste-Mh.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Webiste-Mh.git/index.html",
+    "main.073c9b0a.css.map": "/Webiste-Mh.git/static/css/main.073c9b0a.css.map",
+    "main.8409238d.js.map": "/Webiste-Mh.git/static/js/main.8409238d.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Webiste-Mh.git/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.8409238d.js"
+  ]
+}
