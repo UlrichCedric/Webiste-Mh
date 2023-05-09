@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Webiste-Mh/static/css/main.c033c324.css",
+    "main.css": "/Webiste-Mh/static/css/main.2f51f19c.css",
     "main.js": "/Webiste-Mh/static/js/main.9320285d.js",
     "static/js/787.28cb0dcd.chunk.js": "/Webiste-Mh/static/js/787.28cb0dcd.chunk.js",
     "static/media/photo.jpg": "/Webiste-Mh/static/media/photo.e87273edb0a00ad4ece2.jpg",
@@ -8,12 +8,12 @@
     "index.html": "/Webiste-Mh/index.html",
     "static/media/left-arrow.svg": "/Webiste-Mh/static/media/left-arrow.ff943f8fb48c9f1397b7901e69fad7f1.svg",
     "static/media/right-arrow.svg": "/Webiste-Mh/static/media/right-arrow.5cb57c15f302107e8722eef45f5db75b.svg",
-    "main.c033c324.css.map": "/Webiste-Mh/static/css/main.c033c324.css.map",
+    "main.2f51f19c.css.map": "/Webiste-Mh/static/css/main.2f51f19c.css.map",
     "main.9320285d.js.map": "/Webiste-Mh/static/js/main.9320285d.js.map",
     "787.28cb0dcd.chunk.js.map": "/Webiste-Mh/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c033c324.css",
+    "static/css/main.2f51f19c.css",
     "static/js/main.9320285d.js"
   ]
 }
