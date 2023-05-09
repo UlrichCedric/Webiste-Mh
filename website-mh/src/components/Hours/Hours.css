@@ -1,0 +1,30 @@
+  .container {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  
+  .main-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-block-start: 0;
+  }
+  
+  .text-block {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+  }
+  
+  .text-block p {
+    font-size: 1.2rem;
+    width: 48%;
+    margin-bottom: 1rem;
+  }
+
+  .third-section {
+    background-color: black;
+  }
+  
