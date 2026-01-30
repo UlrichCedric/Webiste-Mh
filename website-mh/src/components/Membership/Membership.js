@@ -29,6 +29,9 @@ const Membership = () => {
                 <span className="amount">40€</span> / 3 mois
               </div>
             </div>
+            <p className="note">
+              + Caution Badge : <strong>10€</strong> (restituée)
+            </p>
             <p className="note">*Sans engagement.</p>
           </div>
         </div>
