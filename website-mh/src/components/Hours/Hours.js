@@ -1,20 +1,23 @@
 import React from 'react';
 import './Hours.css';
+import ScrollReveal from '../ScrollReveal/ScrollReveal';
 
 const ThirdSection = () => {
   return (
     <div className="third-section" id="hours">
       <div className="container">
+        <ScrollReveal animation="fade-up">
           <h2 className="main-title">Les horaires</h2>
           <div className="hours-grid">
-          <p>Lundi: 09h-21h</p>
-          <p>Mardi: 09h-21h</p>
-          <p>Mercredi: 09h-21h</p>
-          <p>Jeudi: 09h-21h</p>
-          <p>Vendredi: 09h-21h</p>
-          <p>Samedi: 09h-17h</p>
-          <p>Dimanche: 09h-13h</p>
-        </div>
+            <p>Lundi: 09h-21h</p>
+            <p>Mardi: 09h-21h</p>
+            <p>Mercredi: 09h-21h</p>
+            <p>Jeudi: 09h-21h</p>
+            <p>Vendredi: 09h-21h</p>
+            <p>Samedi: 09h-17h</p>
+            <p>Dimanche: 09h-13h</p>
+          </div>
+        </ScrollReveal>
       </div>
     </div>
   );

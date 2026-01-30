@@ -1,0 +1,32 @@
+/* État initial : invisible et décalé */
+.scroll-reveal {
+    opacity: 0;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    /* will-change: opacity, transform; Optimisation perf */
+}
+
+/* Animation Fade Up (monte et apparaît) */
+.scroll-reveal.fade-up {
+    transform: translateY(30px);
+}
+
+/* Animation Fade In (apparaît sur place) */
+.scroll-reveal.fade-in {
+    transform: translateY(0);
+}
+
+/* Animation Slide Left (vient de la droite) */
+.scroll-reveal.slide-left {
+    transform: translateX(30px);
+}
+
+/* Animation Slide Right (vient de la gauche) */
+.scroll-reveal.slide-right {
+    transform: translateX(-30px);
+}
+
+/* État Final : Visible et à sa place */
+.scroll-reveal.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
