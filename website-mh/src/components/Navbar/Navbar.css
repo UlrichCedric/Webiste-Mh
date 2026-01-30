@@ -86,8 +86,8 @@
 }
 
 .navbar-logo img {
-  width: 150px;
-  /* Ajuste la largeur du logo */
-  height: auto;
+  width: auto;
+  max-width: 150px;
+  max-height: 50px;
   /* Conserve les proportions du logo */
 }
