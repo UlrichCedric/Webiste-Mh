@@ -2,8 +2,8 @@ import './App.css';
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import Hours from "./components/Hours/Hours";
-import Membership from "./components/Membership/Membership";
-import Location from "./components/Location/Location";
+import Location from './components/Location/Location';
+import Membership from './components/Membership/Membership';
 
 function App() {
   return (

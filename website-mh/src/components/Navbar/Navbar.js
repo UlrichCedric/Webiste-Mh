@@ -27,7 +27,6 @@ const Navbar = () => {
         <li><a href="#adhesion">Adhésion</a></li>
         <li><a href="#hours">Horaires</a></li>
         <li><a href="#location">Localisation</a></li>
-        {/* <li><a href="#contact">Contact</a></li> */}
       </ul>
     </nav>
   );
