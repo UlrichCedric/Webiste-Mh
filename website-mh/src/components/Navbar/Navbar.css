@@ -1,7 +1,8 @@
 .navbar {
   position: fixed;
   display: flex;
-  width: 100vw;
+  width: 100%;
+  box-sizing: border-box;
   height: 8vh;
   align-items: center;
   background-color: white;
@@ -74,15 +75,19 @@
   .navbar-toggle {
     display: block;
   }
+
   .navbar-menu {
     display: none;
   }
+
   .navbar-menu.open {
     display: flex;
   }
 }
 
 .navbar-logo img {
-  width: 150px; /* Ajuste la largeur du logo */
-  height: auto; /* Conserve les proportions du logo */
+  width: 150px;
+  /* Ajuste la largeur du logo */
+  height: auto;
+  /* Conserve les proportions du logo */
 }

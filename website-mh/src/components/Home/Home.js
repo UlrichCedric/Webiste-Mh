@@ -28,7 +28,7 @@ const Home = () => {
                     <li>1 banc développé incliné & 1 décliné</li>
                     <li>1 Smith machine & 1 Rack à squat</li>
                     <li>1 Presse à cuisses & 1 Presse à pectoraux</li>
-                    <li>1 Tirage horizontal & Poulie vis-à-vis</li>
+                    <li>1 Tirage vertical & Poulie vis-à-vis</li>
                     <li>2 machines pour les mollets</li>
                   </ul>
                 </div>
