@@ -1,0 +1,138 @@
+.membership-section {
+    background-color: #1a1a1a;
+    /* Légèrement plus clair que le fond noir */
+    padding: 5rem 0;
+    border-top: 1px solid #333;
+}
+
+.membership-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.membership-card {
+    background-color: #252525;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    transition: transform 0.3s ease;
+    border: 1px solid #333;
+}
+
+.membership-card:hover {
+    transform: translateY(-5px);
+    border-color: #e31b23;
+}
+
+.membership-card h3 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #e31b23;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.sub-title {
+    font-size: 1.1rem;
+    color: #ddd;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #333;
+    padding-bottom: 1rem;
+}
+
+.pricing-options {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.price-item {
+    font-size: 1.1rem;
+    color: #ccc;
+    background-color: #1a1a1a;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.amount {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e31b23;
+}
+
+.membership-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.membership-card li {
+    color: #ddd;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #333;
+    display: flex;
+    align-items: center;
+}
+
+.membership-card li::before {
+    content: "✔";
+    color: #e31b23;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.membership-card p {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.membership-card.featured {
+    border: 2px solid #e31b23;
+    background: linear-gradient(145deg, #252525, #1e0000);
+}
+
+.price {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 1.5rem 0;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: #e31b23;
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.cta-btn:hover {
+    background-color: #c11219;
+}
+
+.note {
+    font-size: 0.9rem;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+    .membership-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+}

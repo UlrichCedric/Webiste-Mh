@@ -1,16 +1,18 @@
 import './App.css';
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
-import Material from "./components/Material/Material";
 import Hours from "./components/Hours/Hours";
+import Membership from "./components/Membership/Membership";
+import Location from "./components/Location/Location";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Home />
+      <Membership />
       <Hours />
-      {/* <Material /> */}
+      <Location />
     </div>
   );
 }

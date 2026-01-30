@@ -22,12 +22,12 @@ const Navbar = () => {
         </button>
       </div>
       <ul className={`navbar-menu ${menuOpen ? 'open' : ''}`}>
-        <li><a href="/home" className="active">Home</a></li>
-        <li><a href="/materiel">Matériel</a></li>
-        <li><a href="/horaires">Horaires</a></li>
-        <li><a href="/adhesion">Adhésion</a></li>
-        <li><a href="/localisation">Localisation</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <li><a href="#home" className="active">Home</a></li>
+        <li><a href="#material">Matériel</a></li>
+        <li><a href="#adhesion">Adhésion</a></li>
+        <li><a href="#hours">Horaires</a></li>
+        <li><a href="#location">Localisation</a></li>
+        {/* <li><a href="#contact">Contact</a></li> */}
       </ul>
     </nav>
   );
