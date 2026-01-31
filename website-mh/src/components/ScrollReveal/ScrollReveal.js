@@ -14,8 +14,8 @@ const ScrollReveal = ({ children, animation = 'fade-up', delay = 0 }) => {
         }
       },
       {
-        threshold: 0.1, // Déclenche quand 10% de l'élément est visible
-        rootMargin: '0px 0px -50px 0px' // Petite marge pour que l'anim se lance un peu avant le bas
+        threshold: 0.01, // Déclenche dès qu'un tout petit bout est visible
+        rootMargin: '0px' // Pas de marge négative qui pourrait bloquer l'anim
       }
     );
 
