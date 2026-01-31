@@ -16,8 +16,8 @@
 }
 
 .map-container iframe {
-    filter: grayscale(100%) invert(90%);
-    /* Carte style sombre */
+    /* Carte en couleur par défaut */
+    border: none;
 }
 
 .address {
